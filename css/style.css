@@ -11,3 +11,14 @@ input:invalid {
   input:required:invalid {
     border-color: #bdc000;
   }
+
+
+  .error {
+        border-color: red;
+    border-width: 0,5px;
+    background-color: red;
+  }
+
+  .error:focus {
+  color: red;
+}
